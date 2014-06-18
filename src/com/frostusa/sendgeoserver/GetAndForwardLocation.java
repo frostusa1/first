@@ -130,7 +130,7 @@ public class GetAndForwardLocation extends Service {
              Log.v("Tim","Error Here 1");
          }
 		 url = url+ulParam;
-		 Log.v("Tim","Url = "+url);
+		 Log.v("Tim","Url = url ="+url);
 		 new doUpdate().execute(url);
 //		 DefaultHttpClient client = new DefaultHttpClient();
 //         HttpGet httpGet = new HttpGet(url);
